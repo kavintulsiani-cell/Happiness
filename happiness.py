@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as ps
 
 
-st.title = ("In Search for Happiness")
+st.title ("In Search for Happiness")
 selection1 = st.selectbox  ("Select the data for the X-axis", ("GDP", "Generosity", "Happiness")).lower()
 selection2 = st.selectbox  ("Select the data for the Y-axis", ("GDP", "Generosity", "Happiness")).lower()
 st.subheader (f"{selection1.upper()} and {selection2.upper()}")
